@@ -9,7 +9,7 @@ h1{
     background-image: url(images/donate.png);
     background-repeat: no-repeat;
     height: 669px;
-    width: 1440px;;
+    width: 1280px;;
     background-size: auto;
     background-size: 100%;
     padding-bottom: 30px;
@@ -23,11 +23,13 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-color: rgb(71, 255, 234);
-    padding: 13px 20px;
-    border-radius: 5px;
-    color: rgb(227, 21, 21);
+    background-color: rgb(235, 81, 42);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
     font-weight: 400;
+    border: 2px solid rgb(10, 148, 141);
+    box-shadow: 5px 5px 40px  rgb(69, 161, 236);
 }
 .second-colum{
     display: flex;
@@ -42,13 +44,14 @@ h1{
     padding-right: 20px;
     box-shadow: 5px 5px 20px rgb(94, 92, 92);
     border-radius: 5px;
+    border: 1px solid rgb(52, 255, 191);
 }
 .position{
     text-align: center;
     margin-bottom: 50px;
 }
 #color-tomato{
-    border: 2px solid tomato;
+    border: 2px solid rgb(255, 52, 62);
     color: tomato;
     background-color: rgb(238, 213, 202);
 }
@@ -64,6 +67,7 @@ h1{
     padding-right: 20px;
     padding-top: 30px;
     padding-bottom: 20px;
+    border: 2px solid goldenrod;
     box-shadow: 5px 5px 15px gray;
 
 }
@@ -92,4 +96,43 @@ h1{
 }
 p{
     margin-bottom: 50px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 60px 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+    box-shadow: 5px 5px 110px 110px  aqua;
+    
+}
+#lname{
+    background-color: #b0acac;
+    color: rgb(173, 171, 169);
+    padding: 10px 30px;
+    border: white;
+    border-radius: 5px 0px 0px 5px;
+
+}
+#name{
+    background-color: tomato;
+    color: white;
+    border: tomato;
+    padding: 10px 40px;
+    border-radius: 0px 5px 5px 0px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+span{
+    color: tomato;
+}
+#copy-right{
+    color: white;
 }

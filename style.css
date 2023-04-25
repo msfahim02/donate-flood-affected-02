@@ -19,7 +19,7 @@ h1{
 .size{
     text-align: center;
     padding-top: 200px;
-    color: white;
+    color: rgba(249, 249, 210, 0.783);
 }
 .link-button{
     text-decoration: none;

@@ -8,8 +8,8 @@ h1{
 .image-add{
     background-image: url(images/donate.png);
     background-repeat: no-repeat;
-    height: 669px;
-    width: 1440px;
+    height: auto;
+    width: auto;
     background-size: auto;
     background-size: 100%;
     padding-bottom: 30px;
@@ -60,6 +60,8 @@ h1{
     margin-left: 120px;
     margin-right: 120px;
     margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
 }
 .plan-box{
     margin: 20px;
@@ -85,6 +87,8 @@ h1{
     margin-left: 120px;
     margin-right: 150px;
     margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
    
 }
 .half-width{
